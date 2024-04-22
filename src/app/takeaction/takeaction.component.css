@@ -1,0 +1,116 @@
+
+.action-content-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: url('src\assets\actionbg.png');
+    background-size: cover;
+}
+
+.glass-container {
+    max-width: 1500px; 
+    margin: 110px 150px 0 150px;
+    background: rgba(0, 0, 0, 0.27);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s;
+  }
+
+.glass-container:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #ff0000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 200px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass-row {
+  display: flex;
+}
+
+.glass-container2 {
+  background: rgba(255, 255, 255, 0.371);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  margin: auto;
+  margin-top: 40px;
+  width: 350px; 
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  transition: 0.3s;
+}
+
+.glass-container2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px 0 rgba(31, 38, 135, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.desc {
+  font-size: 10px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 200px 0;
+}
+
+.help{
+  width: 300px;
+}
+
+.join{
+  width: 300px;
+}
+
+.sign{
+  width: 300px;
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.glass-button:hover {
+  transform: translateY(-5px);
+}
+
+.glass-button {
+  margin-left: 75px; 
+}

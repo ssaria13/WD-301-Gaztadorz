@@ -1,0 +1,51 @@
+<h1>CONTACT FORM</h1>
+<div class="contact-content-container">
+  <div class="contact-form-container">
+    <form (ngSubmit)="onSubmit()" class="contact-form">
+      <ul class="form-list">
+        <li class="form-item">
+          <label for="name">Name:</label>
+          <input type="text" id="name" [(ngModel)]="name" name="name" required>
+        </li>
+        <li class="form-item">
+          <label for="email">Email:</label>
+          <input type="email" id="email" [(ngModel)]="email" name="email" required>
+        </li>
+        <li class="form-item">
+          <label for="message">Message:</label>
+          <textarea id="message" [(ngModel)]="message" name="message" required></textarea>
+        </li>
+        <li class="form-item">
+          <button type="submit">{{ editMode ? 'Update' : 'Submit' }}</button>
+        </li>
+      </ul>
+    </form>
+    
+    <div *ngIf="showMessageConfirmation" class="message-confirmation">
+      <p>Your message has been sent.</p>
+    </div>
+  </div>
+  
+
+  <div *ngIf="submittedMessages.length > 0" class="submitted-messages">
+    <h2 class="sub">Submitted Messages</h2>
+    <table class="submitted-messages-table">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+        <th>Action</th>
+      </tr>
+      <tr *ngFor="let msg of submittedMessages; let i = index">
+        <td>{{ msg.name }}</td>
+        <td>{{ msg.email }}</td>
+        <td>{{ msg.message }}</td>
+        <td>
+          <button class="edit-button" (click)="editMessage(i)">Edit</button>
+          <span style="margin-right: 10px;"></span>
+          <button class="delete-button" (click)="deleteMessage(msg._id)">Delete</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

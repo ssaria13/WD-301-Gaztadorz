@@ -1,0 +1,151 @@
+.contact-content-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+    background-image: url('src\assets\contact.png');
+    background-size: cover;
+    overflow-y: auto; 
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.contact-form-container {
+    max-width: 400px; 
+    margin: 100px auto;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.4); 
+}
+
+.form-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-item {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.form-item label {
+    display: block;
+    font-weight: bold;
+    color: black; 
+}
+
+.form-item input,
+.form-item textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    margin: 6px 0;
+    color: black; 
+}
+
+.form-item input:focus,
+.form-item textarea:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-item textarea {
+    height: 100px;
+}
+
+.form-item button {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.form-item button:hover {
+    background-color: rgba(0, 123, 255, 1);
+}
+
+.message-confirmation {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+}
+
+.submitted-messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.submitted-messages {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sub {
+    color: white;
+}
+
+.submitted-messages-table th,
+.submitted-messages-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.submitted-messages-table th {
+    background-color: #f2f2f29e;
+}
+
+.submitted-messages-table td button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submitted-messages-table td button:hover {
+    background-color: #0056b3;
+}
+
+.submitted-messages-table td .edit-button {
+    background-color: #4caf50;
+}
+
+.submitted-messages-table td .delete-button {
+    background-color: #dc3545; 
+    color: #fff; 
+    margin-left: 5px; 
+}
+
+.submitted-messages-table td .delete-button:hover {
+    background-color: #bd2130; 
+}
+
+td {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.752);
+}

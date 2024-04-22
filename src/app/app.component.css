@@ -1,0 +1,28 @@
+/* IM1 NAVBAR */
+.navbar {
+    background-color: #0000008d !important;
+    z-index: 1;
+}
+
+.navbar-brand {
+    margin-right: auto; 
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.nav-item {
+    margin-right: 10px; 
+}
+
+.nav-link {
+    font-weight: bold; 
+    color: white; 
+    font-size: large;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F64444 !important; 
+}
+

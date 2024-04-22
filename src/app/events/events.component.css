@@ -1,0 +1,140 @@
+
+.home-content-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 49%;
+    background-image: url('src\assets\Eventbg1.png');
+    background-size: cover;
+    opacity: 5;
+
+}
+
+.home-sec{
+    color: red;
+    font-size: 13px;
+    background-color: white;
+    width: 7%;
+    margin-left: 45%;
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 4vh;
+}
+
+.home-logo {
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    width: 25%; 
+    height: 65%; 
+    z-index: 0; 
+    background-image: url('src/assets/EventImg.png');
+    background-size: cover;
+    background-position: center; 
+    border-radius: 5%;
+}
+
+.home-text{
+    color: white;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+.home-text h3{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5vh;
+    font-size: 37px;
+}
+
+.home-text p{
+    font-size: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 7%;
+    margin-top: -8%;
+    margin-left: 7%;
+
+}
+
+.section {
+    width: 25%; 
+    background-color: rgb(4, 56, 4);
+    border-radius: 5%;
+    
+    
+}
+
+.section h3 {
+    color: red;
+    font-size: 15px;
+    background-color: white;
+    width: 33%;
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4vh;
+    
+}
+
+
+.h4{
+    margin-top: 6%;
+    margin-bottom: 2%;
+    color:red;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.section img{
+    width: 100%;
+    margin-right: -10%;
+    border-radius: 5%;
+    
+}
+
+.section p{
+    color: white;
+    margin-left: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.1;
+    width:20vh;
+    
+}
+
+.section p.date{
+    width: 25vh;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: rgb(18, 17, 17);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 32%;
+    border-radius: 1vh;
+    font-size:80%;
+    font-weight: bold;
+    width: 12vh;
+    margin-bottom: 2vh;
+    
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 62, 62);
+  }
+
+button:hover {
+    background-color: #8d8d8e;
+}
+
+  

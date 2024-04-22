@@ -1,0 +1,97 @@
+
+.donation-content-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+    background-image: url('src\assets\donation.png');
+    background-size: cover;
+}
+
+.glass-container {
+    max-width: 1500px; 
+    margin: 110px 150px 0 150px; 
+    background: rgba(0, 0, 0, 0.27);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s;
+  }
+
+.glass-container:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #ff0000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.glassmorphism-container {
+  margin-left: 17em;
+  max-width: 1000px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 8px; 
+  padding: 15px;
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37); 
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: background 0.5s;
+}
+
+.glassmorphism-container:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.vertical-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.vertical-list li {
+  margin-bottom: 8px; 
+  font-size: 20px;
+  font-family: monospace;
+  color: black;
+}
+
+.vertical-list li a {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  background-color: #000000;
+}
+
+
+.vertical-list li a:hover {
+  background-color: #494949;
+}
+
+.vertical-list li strong {
+  font-weight: normal;
+}
